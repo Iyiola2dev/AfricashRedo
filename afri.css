@@ -5,3 +5,14 @@
     padding-left: 10px;
     margin: 2px;
 }
+.btn2{
+    border: 2px solid #068353 ;
+    border-radius: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 3px;
+    background-color: #068353;
+    color: white;
+}
