@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="./afri.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen w-screen">
+    <header class="flex justify-between px-5 py-7 bg-white items-center drop-shadow-xl">
+      <div class="flex justify-center items-center">
+        <img
+          class="h-[30px]"
+          src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587793/Africash/mingcute_copper-coin-fill_jkhp0g.png"
+          alt=""
+        />
+        <h4>Africash</h4>
+      </div>
+      <nav class="flex flex-col">
+        <div class="block lg:hidden">
+          <button id="hamburger" class="focus:outline-none px-6">
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div
+          id="menu"
+          class="hidden lg:flex lg:items-center lg:justify-end lg:space-x-4"
+        >
+          <div class="flex space-x-4 lg:text-2xl">
+            <a href="">About</a>
+            <a href="">Features</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+            <button id="btn1" class="text-[#068353]" >Login</button>
+            <button id="btn1" class="bg-[#068353] text-white">Signup</button>
+          </div>
+        </div>
+
+        <div
+          id="mobileMenu"
+          class="hidden lg:hidden mt-4 absolute right-0 top-4 px-4 py-3"
+        >
+          <div class="flex flex-col gap-1 text-center">
+            <a href="">About</a>
+            <a href="">Features</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+            <button id="btn1" class="text-[#068353]" >Login</button>
+            <button id="btn1"  class="bg-[#068353] text-white" >Signup</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="./africash.js"></script>
+  </body>
+</html>
