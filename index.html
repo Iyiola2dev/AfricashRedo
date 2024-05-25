@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="./afri.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="h-screen w-screen">
-
-
+  <body class="h-screen w-screen ">
     <!-- The header contain the company logo and nav bar -->
-    <header class="flex justify-between px-5 py-7 bg-white items-center drop-shadow-xl">
+    <header
+      class="flex justify-between px-5 py-7 bg-white items-center drop-shadow-xl"
+    >
       <div class="flex justify-center items-center">
         <img
           class="h-[30px]"
@@ -49,7 +49,7 @@
             <a href="">Features</a>
             <a href="">Blog</a>
             <a href="">Contact</a>
-            <button id="btn1" class="text-[#068353]" >Login</button>
+            <button id="btn1" class="text-[#068353]">Login</button>
             <button id="btn1" class="bg-[#068353] text-white">Signup</button>
           </div>
         </div>
@@ -63,66 +63,224 @@
             <a href="">Features</a>
             <a href="">Blog</a>
             <a href="">Contact</a>
-            <button id="btn1" class="text-[#068353]" >Login</button>
-            <button id="btn1"  class="bg-[#068353] text-white" >Signup</button>
+            <button id="btn1" class="text-[#068353]">Login</button>
+            <button id="btn1" class="bg-[#068353] text-white">Signup</button>
           </div>
         </div>
       </nav>
     </header>
 
     <!--The main section of the page-->
-    <main>
+    <main class="overflow-hidden">
       <!-- First section of the page -->
-      <section class="px-5 mt-10 flex flex-col justify-center items-center gap-10">
-        <div class="text-center flex flex-col justify-center items-center gap-1">
-          <h1 class="text-2xl font-extrabold w-[90%]">AFRICA IN ONE FINANCIAL PLATFORM</h1>
-          <p class="text-lg">Digital ecosystem designed to make Africa one.  It’s goal is to  bring the dream of financial inclusion to all people across the continent.</p>
+      <section
+        class="px-5 mt-10 flex flex-col justify-center items-center gap-10"
+      >
+        <div
+          class="text-center flex flex-col justify-center items-center gap-1"
+        >
+          <h1 class="text-2xl font-extrabold w-[90%]">
+            AFRICA IN ONE FINANCIAL PLATFORM
+          </h1>
+          <p class="text-lg">
+            Digital ecosystem designed to make Africa one. It’s goal is to bring
+            the dream of financial inclusion to all people across the continent.
+          </p>
           <button class="btn2 flex gap-1 justify-center items-center">
             <!-- download icon -->
-            <svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M7.90156 10.3281C7.91326 10.3431 7.92819 10.3551 7.94525 10.3635C7.96231 10.3718 7.98103 10.3761 8 10.3761C8.01897 10.3761 8.03769 10.3718 8.05475 10.3635C8.0718 10.3551 8.08674 10.3431 8.09844 10.3281L9.84844 8.11406C9.9125 8.03281 9.85469 7.9125 9.75 7.9125H8.59219V2.625C8.59219 2.55625 8.53594 2.5 8.46719 2.5H7.52969C7.46094 2.5 7.40469 2.55625 7.40469 2.625V7.91094H6.25C6.14531 7.91094 6.0875 8.03125 6.15156 8.1125L7.90156 10.3281ZM13.7188 9.78125H12.7812C12.7125 9.78125 12.6562 9.8375 12.6562 9.90625V12.3125H3.34375V9.90625C3.34375 9.8375 3.2875 9.78125 3.21875 9.78125H2.28125C2.2125 9.78125 2.15625 9.8375 2.15625 9.90625V13C2.15625 13.2766 2.37969 13.5 2.65625 13.5H13.3438C13.6203 13.5 13.8438 13.2766 13.8438 13V9.90625C13.8438 9.8375 13.7875 9.78125 13.7188 9.78125Z" fill="white"/>
-              </svg>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 16 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7.90156 10.3281C7.91326 10.3431 7.92819 10.3551 7.94525 10.3635C7.96231 10.3718 7.98103 10.3761 8 10.3761C8.01897 10.3761 8.03769 10.3718 8.05475 10.3635C8.0718 10.3551 8.08674 10.3431 8.09844 10.3281L9.84844 8.11406C9.9125 8.03281 9.85469 7.9125 9.75 7.9125H8.59219V2.625C8.59219 2.55625 8.53594 2.5 8.46719 2.5H7.52969C7.46094 2.5 7.40469 2.55625 7.40469 2.625V7.91094H6.25C6.14531 7.91094 6.0875 8.03125 6.15156 8.1125L7.90156 10.3281ZM13.7188 9.78125H12.7812C12.7125 9.78125 12.6562 9.8375 12.6562 9.90625V12.3125H3.34375V9.90625C3.34375 9.8375 3.2875 9.78125 3.21875 9.78125H2.28125C2.2125 9.78125 2.15625 9.8375 2.15625 9.90625V13C2.15625 13.2766 2.37969 13.5 2.65625 13.5H13.3438C13.6203 13.5 13.8438 13.2766 13.8438 13V9.90625C13.8438 9.8375 13.7875 9.78125 13.7188 9.78125Z"
+                fill="white"
+              />
+            </svg>
             <p class="text-lg">Get started- It’s free</p>
           </button>
         </div>
-        <div class=" w-[450px] flex justify-center items-center" ><img  src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587896/Africash/1st_image_wevkth.png" alt=""></div>
+        <div class="w-[450px] flex justify-center items-center">
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587896/Africash/1st_image_wevkth.png"
+            alt=""
+          />
+        </div>
       </section>
 
       <!-- second section of the page -->
       <section>
-        <div class="px-3 hide-scrollbar flex  items-center overflow-x-auto w-full h-[5rem] space-x-8 *:h-[1.5em] *w-auto bg-[#edf0f5] mt-5">
-          <img  src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587968/Africash/Quartzlogo_lypxdb.png" alt="">
-          <img src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587967/Africash/New_Bloomberg_Logo_vphlvd.png" alt="">
-          <img src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587965/Africash/cnbc_africa_euhsxq.png" alt="">
-          <img src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587964/Africash/Forbes_logo_b1wdmm.png" alt="">
-          <img src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587964/Africash/TechCrunch_logo_oiljbe.png" alt="">
+        <div
+          class="px-3 hide-scrollbar flex items-center overflow-x-auto w-full h-[5rem] space-x-8 *:h-[1.5em] *w-auto bg-[#edf0f5] mt-5"
+        >
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587968/Africash/Quartzlogo_lypxdb.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587967/Africash/New_Bloomberg_Logo_vphlvd.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587965/Africash/cnbc_africa_euhsxq.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587964/Africash/Forbes_logo_b1wdmm.png"
+            alt=""
+          />
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587964/Africash/TechCrunch_logo_oiljbe.png"
+            alt=""
+          />
         </div>
       </section>
 
       <!-- third section of the page -->
-      <section class="flex flex-col space-y-2 justify-center items-center">
+      <section
+        class="flex flex-col space-y-2 justify-center items-center mt-5 px-5"
+      >
         <div>
-        <h2>Trusted by <span>200 Million+</span>active users across 
-          54 countries</h2>
+          <h2 class="text-center text-3xl font-bold">
+            Trusted by <span>200 Million+</span>active users across 54 countries
+          </h2>
         </div>
         <!-- second div -->
-        <div>
-          <img src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716588055/Africash/Second_img_dyosv8.png" alt="">
-          <div>
-          <h3></h3>
-          <p></p>
-          <span></span>
-        </div>
-        </div>
+        <article>
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716588055/Africash/Second_img_dyosv8.png"
+            alt=""
+          />
+          <div class="space-y-1">
+            <h3 class="text-left text-xl font-bold">
+              Travel every country in Africa without hopping on a plane
+            </h3>
+            <p class="text=lg">
+              We are building a digital community that will empower you to take
+              control of your money and make it work for you.
+            </p>
+            <div class="flex gap-3 items-center text-[#068353]"> 
+            <p>Learn More</p>
+            <span
+              ><svg
+                width="16"
+                height="17"
+                viewBox="0 0 16 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33331 8.52206H12.6666"
+                  stroke="#068353"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8 3.85541L12.6667 8.52207L8 13.1887"
+                  stroke="#068353"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+          </div>
+        </article>
         <!-- third div in this section -->
-        <div>
-          <div>
-          <h3></h3>
-          <p></p>
-          <span></span>
-        </div>
-        <img src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716588055/Africash/Thrid_img_vzse5y.png" alt="">
-        </div>
+        <article>
+          <img
+            src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716588055/Africash/Thrid_img_vzse5y.png"
+            alt=""
+          />
+          <div class="space-y-1">
+            <h3 class="text-left text-xl font-bold">Earn rewards as you spend</h3>
+            <p class="text=lg">
+              We are building a digital community that will empower you to take
+              control of your money and make it work for you.
+            </p>
+            <div class="flex gap-3 items-center text-[#068353]">
+              <p>Learn More</p>
+              <span
+                ><svg
+                  width="16"
+                  height="17"
+                  viewBox="0 0 16 17"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3.33331 8.52206H12.6666"
+                    stroke="#068353"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M8 3.85541L12.6667 8.52207L8 13.1887"
+                    stroke="#068353"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- fourth section of the page -->
+      <section class="mt-5">
+        <div >
+        <img  class="h-[350px]" src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716588302/Africash/fourth_image_ceifgh.png" alt="">
+      </div>
+      <div class="bg-[#068353] relative h-[350px]">
+        <div class="flex flex-col pl-11 py-[6rem] text-white space-y-2 z-20">
+          <h3 class="text-3xl font-bold">Perks of using us?</h3>
+          <ul class="text-lg">
+            <li>No monthly fees</li>
+            <li>Shop internationaly, no fees added</li>
+            <li>Instant Reversals</li>
+            <li>Continental debit card</li>
+          </ul>
+          <div class="flex gap-3 items-center">
+            <p>Learn More</p>
+            <span
+              ><svg
+                width="16"
+                height="17"
+                viewBox="0 0 16 17"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33331 8.52206H12.6666"
+                  stroke="#fff"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8 3.85541L12.6667 8.52207L8 13.1887"
+                  stroke="#fff"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+         </div>
+         <div class="absolute top-0 z-10">
+          <img class="h-[350px]" src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716670320/Africash/Group_1_hv2dm9.png" alt="">
+         </div>
+      </div>
+     
       </section>
     </main>
     <script src="./africash.js"></script>
