@@ -7,6 +7,13 @@
     <link rel="icon" href="" />
     <link rel="stylesheet" href="./afri.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
   </head>
   <body class="h-screen w-screen ">
     <!-- The header contain the company logo and nav bar -->
@@ -23,22 +30,7 @@
       </div>
       <nav class="flex flex-col">
         <div class="block lg:hidden">
-          <button id="hamburger" class="focus:outline-none px-6">
-            <svg
-              class="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16m-7 6h7"
-              ></path>
-            </svg>
-          </button>
+         
         </div>
         <div
           id="menu"
@@ -58,18 +50,46 @@
           </div>
         </div>
 
+       <!-- mobile view -->
+       <div class="lg:hidden">
         <div
-          id="mobileMenu"
-          class="hidden lg:hidden mt-4 absolute right-0 top-4 px-4 py-3 md:z-50"
+          class="sidebar hidden fixed top-0 right-0 bg-[#fff] z-50 w-screen items-center justify-center flex-col h-screen"
         >
-          <div class="flex flex-col gap-1 text-center bg-[#ffffff9f] md:z-50">
-            <a href="">About</a>
-            <a href="">Features</a>
-            <a href="">Blog</a>
-            <a href="">Contact</a>
-            <button id="btn1" class="text-[#068353]">Login</button>
-            <button id="btn1" class="bg-[#068353] text-white">Signup</button>
+          <span class="fixed top-0 right-0 p-5" onclick="hideSidebar()"
+            ><i class="fa-solid fa-xmark"></i
+          ></span>
+
+          <ul
+            class="*:w-[100%] flex flex-col gap-2 justify-center items-center text-center font-extrabold"
+          >
+          <div class="flex p-5 gap-3  fixed top-0 left-0">
+            <img
+              class="h-[30px]"
+              src="https://res.cloudinary.com/dtlejpoxq/image/upload/v1716587793/Africash/mingcute_copper-coin-fill_jkhp0g.png"
+              alt=""
+            />
+            <h4 class="text-xl lg:text-2xl">Africash</h4>
           </div>
+            <li><a class="w-[100%] text-xl" href="./index.html">Home</a></li>
+            <li><a class="w-[100%] text-xl" href="#">Features</a></li>
+            <li><a class="w-[100%] text-xl" href="#">Blog</a></li>
+            <li><a class="w-[100%] text-xl" href="#">Contact</a></li>
+          </ul>
+          <div class="flex gap-5 pt-4">
+            <a href=""><i class="fa-brands fa-instagram h-[50px]"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""> <i class="fa-brands fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <!-- hamburger menu -->
+        <div class="flex justify-between p-5">
+          <!-- <span class="font-extrabold text-lg"><a href="#">Logo.</a></span> -->
+          <span onclick="showSidebar()">
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
+      </div>
         </div>
       </nav>
     </header>
@@ -83,10 +103,10 @@
         <div
           class="text-center flex flex-col justify-center items-center gap-1 md:text-left md:items-start md:relative md:z-20 "
         >
-          <h1 class="text-2xl font-extrabold w-[90%] md:text-4xl md:w-[60%] lg:w-[80%] xl:text-6xl">
+          <h1 class="text-lg font-extrabold  md:text-4xl md:w-[60%] lg:w-[80%] xl:text-6xl">
             AFRICA IN ONE FINANCIAL PLATFORM
           </h1>
-          <p class="text-lg md:text-2xl md:w-[55%]">
+          <p class="text-base md:text-2xl md:w-[55%]">
             Digital ecosystem designed to make Africa one. It’s goal is to bring
             the dream of financial inclusion to all people across the continent.
           </p>
